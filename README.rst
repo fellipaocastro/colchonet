@@ -1,0 +1,5 @@
+Colcho.net
+==========
+
+O Colcho.net é um site para você publicar um espaço sobrando na sua casa para hospedar alguém por
+uma ou mais noites.
