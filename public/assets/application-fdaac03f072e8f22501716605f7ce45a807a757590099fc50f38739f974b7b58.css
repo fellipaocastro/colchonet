@@ -1,0 +1,190 @@
+/* line 10, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+* {
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+}
+
+/* line 15, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+body {
+  background-color: #F5F5F5;
+}
+
+/* line 23, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+header {
+  -moz-box-shadow: #CCC 0 3px 6px;
+  -webkit-box-shadow: #CCC 0 3px 6px;
+  -box-shadow: #CCC 0 3px 6px;
+  border-bottom: 1px solid #686;
+  margin-bottom: 15px;
+  height: 55px;
+  background-color: #9ECE71;
+}
+/* line 29, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+header #header-wrap {
+  width: 700px;
+  margin: 0 auto;
+}
+/* line 36, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+header h1 {
+  float: left;
+}
+/* line 38, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+header h1 a {
+  color: #333;
+  font-family: "Pacifico", "Georgia", serif;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+/* line 43, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+header h1 a:hover {
+  color: #000;
+}
+
+/* line 50, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+header nav {
+  line-height: 55px;
+  float: right;
+}
+/* line 53, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+header nav li {
+  display: inline;
+  background-color: #546f3C;
+  padding: 7px 10px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 61, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+header nav li a {
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+/* line 69, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+#content {
+  text-align: left;
+  width: 700px;
+  margin: 0 auto;
+}
+/* line 74, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+#content h1 {
+  font-size: 1.5em;
+}
+/* line 76, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+#content a, #content a:visited, #content a:hover {
+  color: #242;
+}
+/* line 78, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+#content a:hover, #content a:visited:hover, #content a:hover:hover {
+  text-decoration: underline;
+}
+/* line 81, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+#content ul, #content form, #content p {
+  margin: 10px 0;
+}
+
+/* line 87, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+form label {
+  display: block;
+  margin: 5px 0;
+  color: #444;
+}
+/* line 93, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+form input[type=text], form input[type=password], form textarea {
+  color: #444;
+  font-size: 12px;
+  border: 1px solid #CCC;
+  padding: 5px;
+  width: 200px;
+  outline: 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+/* line 102, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+form input[type=text]:focus, form input[type=password]:focus, form textarea:focus {
+  border: 1px solid #C9C9C9;
+}
+/* line 105, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+form textarea {
+  width: 400px;
+  height: 200px;
+}
+
+/* line 111, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+.field_with_errors {
+  display: inline;
+}
+/* line 114, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+.field_with_errors label {
+  color: #B94A48;
+}
+/* line 116, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+.field_with_errors input[type=text], .field_with_errors input[type=password], .field_with_errors textarea {
+  border: 1px solid rgba(189, 74, 72, 0.5);
+  -moz-box-shadow: rgba(189, 74, 72, 0.2) 0px 0px 8px;
+  -webkit-box-shadow: rgba(189, 74, 72, 0.2) 0px 0px 8px;
+  -box-shadow: rgba(189, 74, 72, 0.2) 0px 0px 8px;
+}
+/* line 120, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+.field_with_errors input[type=text]:focus, .field_with_errors input[type=password]:focus, .field_with_errors textarea:focus {
+  border: 1px solid rgba(189, 74, 72, 0.6);
+}
+
+/* line 124, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+.error_message {
+  margin-left: 5px;
+  display: inline;
+  color: #B94A48;
+}
+
+/* line 130, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+.padded_flash, #error_explanation, #notice, #alert {
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+  width: 500px;
+}
+
+/* line 137, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+#error_explanation {
+  border: 1px solid #B94A48;
+  color: #B94A48;
+  background-color: #F2DEDE;
+}
+
+/* line 144, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+#notice {
+  color: #468847;
+  border: 1px solid #468847;
+  background-color: #DFF0D8;
+}
+
+/* line 151, /Users/fellipecastro/Workspace/colchonet/app/assets/stylesheets/default.css.scss */
+#alert {
+  color: #B94A48;
+  border: 1px solid #B94A48;
+  background-color: #F2DEDE;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+li { list-style: none; }
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
