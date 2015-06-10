@@ -1,6 +1,11 @@
 ---
 pt-BR:
+  home:
+    index:
+      header: Quartos recém postados
   rooms:
+    index:
+      header: Listagem de Quartos
     new:
       header: Novo Quarto
     edit:
