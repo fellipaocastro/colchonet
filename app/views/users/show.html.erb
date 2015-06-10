@@ -1,8 +1,13 @@
-<h1>Perfil: <%= @user.full_name %></h1>
+<h1><%= t '.header', :full_name => @user.full_name %></h1>
 
-<ul>
-  <li>Localização: <%= @user.location %></li>
-  <li>Bio: <%= @user.bio %></li>
-</ul>
+<p>
+  <strong><%= t '.location' %>:</strong>
+  <%= @user.location %>
+</p>
 
-<%= link_to 'Editar Perfil', edit_user_path(@user) %>
+<p>
+  <strong><%= t '.bio' %>:</strong>
+  <%= @user.bio %>
+</p>
+
+<%= link_to t('links.edit'), edit_user_path(@user) %>

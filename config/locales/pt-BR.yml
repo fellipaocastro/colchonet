@@ -1,0 +1,46 @@
+---
+pt-BR:
+  rooms:
+    new:
+      header: Novo Quarto
+    edit:
+      header: Edição de Quarto
+    show:
+      header: Quarto
+      title: Título
+      location: Localização
+      description: Descrição
+  users:
+    new:
+      header: Cadastro
+    edit:
+      header: Edição de Perfil
+    show:
+      header: "Perfil: %{full_name}"
+      location: Localização
+      bio: Bio
+  links:
+    back: Voltar
+    show: Exibir
+    edit: Editar
+  layout:
+    rooms: Quartos
+    signup: Cadastro
+  general:
+    form_error: "Há %{errors_count} no formulário, por favor verifique."
+  activerecord:
+    models:
+      room: Quarto
+      user: Usuário
+    attributes:
+      user:
+        bio: Biografia
+        email: Email
+        full_name: Nome completo
+        location: Localização
+        password: Senha
+        password_confirmation: Confirme sua senha
+      room:
+        description: Descrição
+        location: Localização
+        title: Título
