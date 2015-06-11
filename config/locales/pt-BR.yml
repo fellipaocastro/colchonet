@@ -6,6 +6,11 @@ pt-BR:
   layout:
     rooms: Quartos
     signup: Cadastro
+    new_room: Cadastre seu quarto!
+    signup: Cadastro
+    signin: Login
+    my_profile: Meu perfil
+    signout: Logout
 
   flash:
     alert:
@@ -14,6 +19,10 @@ pt-BR:
       signed_in: 'Login efetuado com sucesso!'
       signed_out: 'Logout efetuado com sucesso. Até logo!'
       already_logged_in: "Você já está logado."
+      user_created: 'Cadastro criado com sucesso!'
+      user_updated: 'Cadastro atualizado com sucesso!'
+      room_created: 'Quarto criado com sucesso!'
+      room_updated: 'Quarto atualizado com sucesso!'
 
   signup:
     confirm_email:
