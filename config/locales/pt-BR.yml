@@ -49,7 +49,7 @@ pt-BR:
         description: Descrição
         location: Localização
         title: Título
-  signup_mailer:
+  signup:
     confirm_email:
       subject: 'Colcho.net - Confirme seu email'
       title: 'Seja bem vindo ao Colcho.net!'
@@ -60,3 +60,5 @@ pt-BR:
       confirm_link_html: 'Para você começar a usar o site, acesse o 
               link: %{link}'
       thanks_html: 'Obrigado por se cadastrar no %{link}.'
+  confirmations:
+    success: Email confirmado com sucesso, obrigado!
