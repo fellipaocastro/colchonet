@@ -57,7 +57,7 @@ pt-BR:
       header: Quartos recém postados
   rooms:
     index:
-      header: Listagem de Quartos
+      header: Quartos disponíveis
     new:
       header: Novo Quarto
     edit:
@@ -67,11 +67,17 @@ pt-BR:
       title: Título
       location: Localização
       description: Descrição
+    room:
+      owner_html: '&mdash; %{owner} (%{when})'
+      edit: 'Editar'
+      destroy: 'Remover'
 
   links:
     back: Voltar
     show: Exibir
     edit: Editar
+    destroy: Destruir
+    add: Novo
 
   activerecord:
     models:
@@ -103,3 +109,6 @@ pt-BR:
     submit:
       user_session:
         create: 'Entrar'
+
+  dialogs:
+    destroy: 'Você tem certeza que quer remover?'

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  LOCALES = /pt\-BR/
+  LOCALES ||= /pt\-BR/
 
   scope "(:locale)", locale: LOCALES do
     resources :rooms
