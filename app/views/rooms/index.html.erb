@@ -1,3 +1,11 @@
-<h1><%= t '.header' %></h1>
+<%= render 'search' %>
+
+<h1>
+  <% if @search_query.present? %>
+    <%= t '.search_results' %>
+  <% else %>
+    <%= t '.header' %>
+  <% end %>
+</h1>
 
 <%= render @rooms %>

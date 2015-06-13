@@ -58,6 +58,9 @@ pt-BR:
   rooms:
     index:
       header: Quartos disponíveis
+      search_results: 'Resultados da busca'
+    search:
+      search_for: 'Buscar por...'
     new:
       header: Novo Quarto
     edit:
