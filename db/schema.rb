@@ -11,18 +11,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150612001535) do
+ActiveRecord::Schema.define(version: 20150612123348) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "reviews", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "room_id"
+    t.integer  "points"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "reviews", ["room_id"], name: "index_reviews_on_room_id", using: :btree
+  add_index "reviews", ["user_id", "room_id"], name: "index_reviews_on_user_id_and_room_id", unique: true, using: :btree
+  add_index "reviews", ["user_id"], name: "index_reviews_on_user_id", using: :btree
 
   create_table "rooms", force: :cascade do |t|
     t.string   "title"
     t.string   "location"
     t.text     "description"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
     t.integer  "user_id"
+    t.integer  "reviews_count"
   end
 
   add_index "rooms", ["user_id"], name: "index_rooms_on_user_id", using: :btree
@@ -41,4 +54,6 @@ ActiveRecord::Schema.define(version: 20150612001535) do
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
 
+  add_foreign_key "reviews", "rooms"
+  add_foreign_key "reviews", "users"
 end

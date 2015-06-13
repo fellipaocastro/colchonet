@@ -1,7 +1,7 @@
 <h1><%= t '.header' %></h1>
 
-<ul>
-  <% @rooms.each do |room| %>
-    <li><%= link_to room.complete_name, room %></li>
-  <% end %>
-</ul>
+<% @rooms.each do |room| %>
+  <article class="room">
+    <h2><%= link_to room.complete_name, room %></h2>
+  </article>
+<% end %>

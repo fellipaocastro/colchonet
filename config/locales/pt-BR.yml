@@ -71,6 +71,12 @@ pt-BR:
       owner_html: '&mdash; %{owner} (%{when})'
       edit: 'Editar'
       destroy: 'Remover'
+    review_form:
+      login_to_review: 'Faça o login para avaliar quartos'
+    review:
+      stats:
+        one: '(1 avaliação)'
+        other: '(%{count} avaliações)'
 
   links:
     back: Voltar
@@ -83,6 +89,7 @@ pt-BR:
     models:
       room: Quarto
       user: Usuário
+      review: Avaliação
     attributes:
       user:
         bio: Biografia
