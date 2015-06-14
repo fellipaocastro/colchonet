@@ -1,4 +1,6 @@
 class RoomsController < ApplicationController
+  include RoomsHelper
+
   PER_PAGE = 10
 
   before_action :set_room, only: [:show, :edit, :update, :destroy]
@@ -16,7 +18,9 @@ class RoomsController < ApplicationController
   def show
     room_model = Room.friendly.find(params[:id])
 
-    @room = RoomPresenter.new(room_model, self)
+    show_form = !belongs_to_user(room_model)
+
+    @room = RoomPresenter.new(room_model, self, show_form)
   end
 
   def new
