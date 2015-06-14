@@ -21,8 +21,9 @@ pt-BR:
       already_logged_in: "Você já está logado."
       user_created: 'Cadastro criado com sucesso!'
       user_updated: 'Cadastro atualizado com sucesso!'
-      room_created: 'Quarto criado com sucesso!'
-      room_updated: 'Quarto atualizado com sucesso!'
+      room_created: 'Quarto "%{complete_name}" criado com sucesso!'
+      room_updated: 'Quarto "%{complete_name}" atualizado com sucesso!'
+      room_destroyed: 'Quarto "%{complete_name}" removido com sucesso!'
 
   signup:
     confirm_email:

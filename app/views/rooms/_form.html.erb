@@ -1,6 +1,6 @@
 <% if @room.errors.any? %>
   <div id="error_explanation">
-    Há <%= pluralize(@room.errors.count, "erro", "erros") %> no formulário, por favor verifique.
+    <%= t 'general.form_error', :errors_count => @room.errors.count %>
   </div>
 <% end %>
 
