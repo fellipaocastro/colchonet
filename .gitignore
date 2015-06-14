@@ -36,3 +36,4 @@ bower.json
 
 *.DS_Store
 .env
+/public/uploads
