@@ -52,3 +52,6 @@ gem 'puma'
 gem 'friendly_id'
 
 gem 'kaminari'
+
+gem 'carrierwave'
+gem 'rmagick', :require => 'RMagick'
