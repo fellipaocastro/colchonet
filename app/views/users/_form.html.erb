@@ -1,6 +1,7 @@
 <% if @user.errors.any? %>
   <div id="error_explanation">
-    <%= t 'general.form_error', :errors_count => @user.errors.count %>
+    <%= t 'general.form_error',
+      :errors_count => "#{pluralize(@user.errors.count, 'erro', 'erros')}" %>
   </div>
 <% end %>
 

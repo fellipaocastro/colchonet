@@ -1,7 +1,7 @@
 ---
 pt-BR:
   general:
-    form_error: "Há %{errors_count} erro(s) no formulário, por favor verifique."
+    form_error: "Há %{errors_count} no formulário, por favor verifique."
 
   layout:
     rooms: Quartos

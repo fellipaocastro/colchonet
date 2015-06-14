@@ -1,6 +1,7 @@
 <% if @room.errors.any? %>
   <div id="error_explanation">
-    <%= t 'general.form_error', :errors_count => @room.errors.count %>
+    <%= t 'general.form_error',
+      :errors_count => "#{pluralize(@room.errors.count, 'erro', 'erros')}" %>
   </div>
 <% end %>
 
