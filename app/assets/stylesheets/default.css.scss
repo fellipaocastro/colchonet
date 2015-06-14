@@ -150,3 +150,14 @@ form {
   @extend .padded_flash;
   background-color: #F2DEDE;
 }
+
+.pagination {
+  margin: 20px 0;
+}
+.pagination span {
+  padding: 5px;
+  margin: 0 3px;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  @include shadow(#CCC, 0, 3px, 6px);
+}
